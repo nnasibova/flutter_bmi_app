@@ -147,7 +147,7 @@ class _BmiCalcState extends State<BmiCalc> {
                     style: const TextStyle(
                         color: Colors.grey, fontSize: 20, letterSpacing: 1.0)),
                 Text(
-                  option == "WEIGHT" ? weight.toString() : age.toString(),
+                  option == "WEIGHTt" ? weight.toString() : age.toString(),
                   style: const TextStyle(
                       fontSize: 35,
                       color: Colors.white,
